@@ -47,6 +47,6 @@ var scriptFail = window.setTimeout(function() {
 
  
 $.getScript(path + 'LwR4RQje', function() {
- message("version "+ PlugStation.version +" is now available!");
+ message("version "+ PlugStation.version +" está disponivel!");
  window.clearTimeout(scriptFail);
  });
